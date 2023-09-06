@@ -1,6 +1,7 @@
 # Common terminal commands
 # source venv/bin/activate
 # python manage.py runserver
-# git add .
 # git commit -m "text"
 # git push origin branchName
+
+# changes every file: git add . 
