@@ -1,7 +1,0 @@
-# 1st
-#    >> source venv/bin/activate
-#
-# 2nd
-#    >> python manage.py runserver
-#
-# Must be in the directories
