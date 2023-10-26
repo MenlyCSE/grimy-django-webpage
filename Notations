@@ -1,6 +1,6 @@
 # Common terminal commands
 # source venv/bin/activate
-# python manage.py runserver
+# python3 manage.py runserver
 # git commit -m "text"
 # git push origin branchName
 
