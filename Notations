@@ -1,6 +1,9 @@
 # Common terminal commands
 # source venv/bin/activate
 # python3 manage.py runserver
+
+# just use VSC's git function, but here:
+# git add fileName
 # git commit -m "text"
 # git push origin branchName
 
