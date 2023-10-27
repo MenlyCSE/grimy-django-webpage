@@ -198,15 +198,16 @@ input[type="checkbox"] {
 
 .text1 {
     position: absolute;
-    top: -120px;
+    top: -100px;
     bottom: 0;
-    left: 77px;
-    right: 0;
+    left: 0%;
+    right: 0%;
+    transform: translateX(0%);
     margin: auto;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 50px;
-    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
     transform-origin: 10px;
     transition: all 0.3s ease;
     user-select: none;
@@ -228,14 +229,14 @@ input[type="checkbox"] {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     opacity: 100%;
     height: 35px;
     color: #888;
     transform-origin: 10px;
     transition: transform 0.3s ease-in-out;
     user-select: none;
-    width: 530px;
+    width: 300px;
 }
 
 .inculpable_meaning {
@@ -926,9 +927,10 @@ input[type="checkbox"] {
 
 .group1 {
     position: absolute;
-    top: -0;
-    bottom: 20%;
-    left: -50%;
+    top: 0;
+    bottom: 15%;
+    left: 0%;
     right: 0px;
+    transform: translateX(-25%);
     margin: auto;
 }
