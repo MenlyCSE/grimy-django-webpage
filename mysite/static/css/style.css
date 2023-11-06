@@ -178,8 +178,8 @@ input[type="checkbox"] {
 }
 
 
-/* WebImg (teeth smile) */
-.image1_b {
+/* description */
+.imagecontainer1 {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 60%;
@@ -187,90 +187,48 @@ input[type="checkbox"] {
     width: 100%;
     max-height: 690px;
     max-width: 690px;
-    z-index: -0;
   }
   
-.image1_b img {
-  max-width: 80%;
-  max-height: 100%;
-  display: block;
-  margin: auto;
-}
-
-.text1 {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: -10%;
+.imagecontainer1 img {
+    position: relative;
+    max-width: 80%;
+    max-height: 100%;
+    display: block;
     margin: auto;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 45px;
-    color: #000;
-    z-index: 1;
-}
-
-.image1_b .text1 {
-    color: #888;
-    transition: all 0.3s ease-in-out;
-
-}
-
-
-.image1_b .text1::before {
-    content: "";
-    position: absolute;
-    top: -60px;
-    right: -153px;
-    bottom: -100px; 
-    left: -480px;
-    outline: 1px solid red; 
-}
-
-.image1_b .text1:hover {
-    color:#f23838
 }
 
 .text2 {
     position: absolute;
-    top: 0px;
-    bottom: 0;
-    left: 0px;
-    right: 0;
-    margin: auto;
-    text-align: left;
+    left: 50%;
+    bottom: 540px;
+    transform: translate(-50%, -50%);
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    opacity: 100%;
-    height: 35px;
+    opacity: 1; 
     color: #888;
-    transform-origin: 10px;
     transition: transform 0.3s ease-in-out;
     user-select: none;
-    width: 250px;
+    max-width: 650px; 
 }
+
 
 .inculpable_meaning {
-    color: #888;
-    transition: all 0.3s ease-in-out;
-    position: relative;
+    color: #f23838; 
+    animation: colorLoop 6s linear infinite;
+    transition: color 0.3s ease-in-out;
 }
 
-
-.inculpable_meaning::before {
-    content: "";
-    position: absolute;
-    top: -60px;
-    right: -153px;
-    bottom: -100px; 
-    left: -480px;
-    outline: 1px solid transparent; /* Add a red outline to visualize the hitbox */
+@keyframes colorLoop {
+    0%, 100% {
+        color: #f23838; /* Red at the start and end */
+    }
+    50% {
+        color: #8c38f2; /* Purple in the middle */
+    }
 }
 
-.inculpable_meaning:hover {
-    color:#f23838
-}
 
 .text3 {
     position: absolute;
@@ -935,14 +893,4 @@ input[type="checkbox"] {
     margin: auto;
     margin-block: auto;
     position: absolute;
-}
-
-.group1 {
-    position: absolute;
-    top: 0;
-    bottom: 15%;
-    left: 0%;
-    right: 0px;
-    transform: translateX(-30%);
-    margin: auto;
 }
