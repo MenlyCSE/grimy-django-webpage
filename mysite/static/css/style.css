@@ -222,10 +222,10 @@ input[type="checkbox"] {
 
 @keyframes colorLoop {
     0%, 100% {
-        color: #f23838; /* Red at the start and end */
+        color: #f23838; 
     }
     50% {
-        color: #8c38f2; /* Purple in the middle */
+        color: #8c38f2; 
     }
 }
 
