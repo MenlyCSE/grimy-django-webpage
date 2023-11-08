@@ -200,7 +200,7 @@ input[type="checkbox"] {
 .text2 {
     position: absolute;
     left: 50%;
-    bottom: 540px;
+    bottom: 560px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -213,6 +213,11 @@ input[type="checkbox"] {
     max-width: 650px; 
 }
 
+@media (max-width: 620px) {
+    .text2 {
+        bottom: 510px;
+    }
+}
 
 .inculpable_meaning {
     color: #f23838; 
