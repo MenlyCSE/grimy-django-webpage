@@ -412,16 +412,6 @@ input[type="checkbox"] {
     top: 175px;
 }
 
-.text4 {
-    margin: 0 auto;
-    margin-top: 125px;
-    width: 371px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 50px;
-    color: #1b1b1b;
-}
-
 .text5 {
     margin: 0 auto;
     margin-top: 1px;
@@ -703,25 +693,20 @@ input[type="checkbox"] {
 
 .profile1 {
     position:relative;
-    margin: 0 auto;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .face1{
     position:absolute;
     top:300px;
     bottom: 0px;
-    left:0px;
+    left: 50%;
     right:0px;
-    margin:auto;
-    border: 3px solid #000000;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000000;
     border-radius: 40px;
-    transition: all 0.3s ease-in-out;
-    
-}
-
-.face1:hover {
-    border-color: #f23838;
-    transform: scale(1.05);
 }
 
 /* circles2 */
