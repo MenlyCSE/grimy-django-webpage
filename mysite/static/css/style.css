@@ -409,7 +409,7 @@ input[type="checkbox"] {
     height: 200px;
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, .2);
     margin: 0 auto;
-    top: 175px;
+    top: 720px;
 }
 
 .text5 {
@@ -441,38 +441,60 @@ input[type="checkbox"] {
     user-select: none;
 }
 
+/* info squares */ 
 .square1 {
-    position:relative;
-    margin: 0 auto;
-    margin-top: 80px;
-    transform:translateX(53%);
+    position:absolute;
+    left: 39%;
+    bottom: -500px;
+    transform:translate(-50%, -50%);
     border-radius: 35px;
     border: 3px solid black;
-    padding: 20px;
-    width: 330px;
-    height: 350px;
-    transition: all 0.3s ease;
-}
-
-.square1:hover {
-    border-color: #f23838;
+    width: 250px;
+    height: 250px;
 }
 
 .square2 {
-    position:relative;
-    margin: 0 auto;
-    margin-top: -350px;
-    transform:translateX(-53%);
+    position:absolute;
+    left: 61%;
+    bottom: -500px;
+    transform:translate(-50%, -50%);
     border-radius: 35px;
     border: 3px solid black;
-    padding: 20px;
-    width: 330px;
-    height: 350px;
-    transition: all 0.3s ease;
+    width: 250px;
+    height: 250px;
 }
 
-.square2:hover {
-    border-color: #f23838;
+.square3 {
+    position:absolute;
+    left: 39%;
+    bottom: -775px;
+    transform:translate(-50%, -50%);
+    border-radius: 35px;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.square4 {
+    position:absolute;
+    left: 61%;
+    bottom: -775px;
+    transform:translate(-50%, -50%);
+    border-radius: 35px;
+    border: 3px solid black;
+    width: 250px;
+    height: 250px;
+}
+
+.square5 {
+    position:absolute;
+    left: 16%;
+    bottom: -915px;
+    transform:translate(-50%, -50%);
+    border-radius: 25px;
+    border: 3px solid black;
+    width: 250px;
+    height: 525px;
 }
 
 .image5 {
@@ -482,17 +504,9 @@ input[type="checkbox"] {
     left:0;
     right:0;
     margin:auto;
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: auto;
     user-select: none;
-}
-
-.image5 {
-    transition: transform 0.3s ease-in-out;
-}
-
-.image5:hover {
-    transform: scale(1.15);
 }
 
 .image6 {
@@ -502,21 +516,12 @@ input[type="checkbox"] {
     left:0;
     right:0;
     margin:auto;
-    width: 110px;
-    height: 90px;
+    width: 90px;
+    height: auto;
     user-select: none;
-}
-
-.image6 {
-    transition: transform 0.3s ease-in-out;
-}
-
-.image6:hover {
-    transform: scale(1.15);
 }
 
 /* circles */
-
 .circles {
     position: absolute;
     top: 0;
