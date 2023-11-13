@@ -441,62 +441,28 @@ input[type="checkbox"] {
     user-select: none;
 }
 
-/* info squares */ 
+/* info squares */
 .square1 {
-    position:absolute;
-    left: 39%;
-    bottom: -500px;
-    transform:translate(-50%, -50%);
+    flex: 1; 
+    position: absolute;
     border-radius: 35px;
-    border: 3px solid black;
+    border: 2px solid black;
+    width: 30%;
+    height: 98%;
+    margin: 5px; 
+}
+
+.square2, .square3, .square4, .square5 {
+    position: relative;
+    top: 120%;
+    border-radius: 35px;
+    border: 2px solid black;
     width: 250px;
     height: 250px;
+    margin: 5px; 
 }
 
-.square2 {
-    position:absolute;
-    left: 61%;
-    bottom: -500px;
-    transform:translate(-50%, -50%);
-    border-radius: 35px;
-    border: 3px solid black;
-    width: 250px;
-    height: 250px;
-}
-
-.square3 {
-    position:absolute;
-    left: 39%;
-    bottom: -775px;
-    transform:translate(-50%, -50%);
-    border-radius: 35px;
-    border: 3px solid black;
-    width: 250px;
-    height: 250px;
-}
-
-.square4 {
-    position:absolute;
-    left: 61%;
-    bottom: -775px;
-    transform:translate(-50%, -50%);
-    border-radius: 35px;
-    border: 3px solid black;
-    width: 250px;
-    height: 250px;
-}
-
-.square5 {
-    position:absolute;
-    left: 16%;
-    bottom: -915px;
-    transform:translate(-50%, -50%);
-    border-radius: 25px;
-    border: 3px solid black;
-    width: 250px;
-    height: 525px;
-}
-
+/* images */
 .image5 {
     position:absolute;
     top:0;
@@ -877,7 +843,7 @@ input[type="checkbox"] {
     margin: auto;
     margin-block: auto;
     position: absolute;
-  }
+}
 
 .rectangle2 {
     height: 953px;
@@ -888,4 +854,19 @@ input[type="checkbox"] {
     margin: auto;
     margin-block: auto;
     position: absolute;
+}
+
+/* info squares */ 
+.infosquares {
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    top: 900px;
+    height: 500px;
+    width: 900px;
+    border-radius: 20px;
+    background-color: #ef4f4f7e;
+    z-index: 2;
+    display: flex; 
+    justify-content: space-between;
 }
