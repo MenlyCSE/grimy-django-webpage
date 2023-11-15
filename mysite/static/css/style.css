@@ -409,7 +409,7 @@ input[type="checkbox"] {
     height: 200px;
     box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, .2);
     margin: 0 auto;
-    top: 720px;
+    top: 750px;
 }
 
 .text5 {
@@ -448,18 +448,69 @@ input[type="checkbox"] {
     border-radius: 35px;
     border: 2px solid black;
     width: 30%;
-    height: 98%;
+    height: 104%;
     margin: 5px; 
 }
 
-.square2, .square3, .square4, .square5 {
-    position: relative;
-    top: 120%;
+.square2 {
+    flex: 2; 
+    position: absolute;
+    left: 32%;
     border-radius: 35px;
     border: 2px solid black;
     width: 250px;
     height: 250px;
-    margin: 5px; 
+    margin: 5px;
+}
+
+.square3 {
+    flex: 3; 
+    position: absolute;
+    left: 66%;
+    border-radius: 35px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.square4 {
+    flex: 4; 
+    position: absolute;
+    left: 32%;
+    top: 54%;
+    border-radius: 35px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.square5 {
+    flex: 5; 
+    position: absolute;
+    left: 66%;
+    top: 54%;
+    border-radius: 35px;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+/* info squares parent */ 
+.infosquares {
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    top: 900px;
+    height: 500px;
+    width: 780px;
+    border-radius: 20px;
+    background-color: transparent; /* adjust for flexbox */
+    z-index: 2;
+    display: flex; 
+    justify-content: space-between;
 }
 
 /* images */
@@ -662,12 +713,7 @@ input[type="checkbox"] {
     width: 375px;
 }
 
-.profile1 {
-    position:relative;
-    top: 400px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .face1{
     position:absolute;
@@ -835,7 +881,7 @@ input[type="checkbox"] {
 }
 
 .rectangle {
-    height: 953px;
+    height: 853px;
     width: 100%;
     background-color: #f3f3f3;
     overflow: hidden;
@@ -843,30 +889,4 @@ input[type="checkbox"] {
     margin: auto;
     margin-block: auto;
     position: absolute;
-}
-
-.rectangle2 {
-    height: 953px;
-    width: 100%;
-    background-color: #f3f3f3;
-    overflow: hidden;
-    z-index: -1;
-    margin: auto;
-    margin-block: auto;
-    position: absolute;
-}
-
-/* info squares */ 
-.infosquares {
-    position: absolute;
-    transform: translateX(50%);
-    right: 50%;
-    top: 900px;
-    height: 500px;
-    width: 900px;
-    border-radius: 20px;
-    background-color: #ef4f4f7e;
-    z-index: 2;
-    display: flex; 
-    justify-content: space-between;
 }
