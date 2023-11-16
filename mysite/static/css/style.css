@@ -457,10 +457,24 @@ input[type="checkbox"] {
     position: absolute;
     left: 32%;
     border-radius: 35px;
-    border: 2px solid black;
     width: 250px;
     height: 250px;
     margin: 5px;
+}
+
+.square2, .square5 {
+    border: 2px solid black;
+    animation: ColorForBoxes 6s linear infinite;
+    transition: color 0.3s ease-in-out;
+}
+
+@keyframes ColorForBoxes {
+    0%, 100% {
+        border-color: #f23838; 
+    }
+    50% {
+        border-color: #8c38f2; 
+    }
 }
 
 .square3 {
@@ -516,8 +530,18 @@ input[type="checkbox"] {
 /* images */
 .image5 {
     position:absolute;
-    top:0;
-    bottom: 55%;
+    top: 10px;
+    left:0;
+    right:0;
+    margin:auto;
+    width: 85px;
+    height: auto;
+    user-select: none;
+}
+
+.imagePython {
+    position:absolute;
+    top: 10px;
     left:0;
     right:0;
     margin:auto;
@@ -528,8 +552,7 @@ input[type="checkbox"] {
 
 .image6 {
     position:absolute;
-    top:0;
-    bottom: 55%;
+    top: 10px;
     left:0;
     right:0;
     margin:auto;
