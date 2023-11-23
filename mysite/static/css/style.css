@@ -441,29 +441,41 @@ input[type="checkbox"] {
     user-select: none;
 }
 
-/* info squares */
-.square1 {
-    flex: 1; 
+/* common infoSquare attributes */
+.square {
     position: absolute;
     border-radius: 35px;
     border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 5px; 
+}
+
+/* square text */
+.squareText {
+    color: #1b1b1b;
+}
+
+/* square text position */
+.squareTextPosition {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 45%;
+}
+
+/* section one infoSquares */
+.square1 {
+    flex: 1; 
     width: 30%;
     height: 104%;
-    margin: 5px; 
 }
 
 .square2 {
     flex: 2; 
-    position: absolute;
     left: 32%;
-    border-radius: 35px;
-    width: 250px;
-    height: 250px;
-    margin: 5px;
 }
 
 .square2, .square5 {
-    border: 2px solid black;
     animation: ColorForBoxes 6s linear infinite;
     transition: color 0.3s ease-in-out;
 }
@@ -479,41 +491,23 @@ input[type="checkbox"] {
 
 .square3 {
     flex: 3; 
-    position: absolute;
     left: 66%;
-    border-radius: 35px;
-    border: 2px solid black;
-    width: 250px;
-    height: 250px;
-    margin: 5px;
 }
 
 .square4 {
     flex: 4; 
-    position: absolute;
     left: 32%;
     top: 54%;
-    border-radius: 35px;
-    border: 2px solid black;
-    width: 250px;
-    height: 250px;
-    margin: 5px;
 }
 
 .square5 {
     flex: 5; 
-    position: absolute;
     left: 66%;
     top: 54%;
-    border-radius: 35px;
-    border: 2px solid black;
-    width: 250px;
-    height: 250px;
-    margin: 5px;
 }
 
-/* info squares parent */ 
-.infosquares {
+/* infoSquares parent */ 
+.infoSquares {
     position: absolute;
     transform: translateX(50%);
     right: 50%;
@@ -714,18 +708,6 @@ input[type="checkbox"] {
 
 }
 
-.square1_text {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 45%;
-}
-
-.square2_text {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 45%;
-}
-
 .text7 {
     margin: 0 auto;
     margin-top: 325px;
@@ -735,8 +717,6 @@ input[type="checkbox"] {
     color: #1b1b1b;
     width: 375px;
 }
-
-
 
 .face1{
     position:absolute;
