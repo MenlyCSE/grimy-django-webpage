@@ -1,2 +1,2 @@
 # Grïmy
-A website created with html, css, and django's python library
+A website created with HTML, CSS, and Django's python library
